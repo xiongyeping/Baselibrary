@@ -197,11 +197,12 @@ public abstract class BaseActivity extends AppCompatActivity {
 
     /**
      * 是否打开沉浸式状态栏
+     * 默认关闭
      *
      * @return
      */
     public boolean isOpenStatus() {
-        return true;
+        return false;
     }
 
     /**
